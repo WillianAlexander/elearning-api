@@ -1,5 +1,6 @@
 # ---- Base ----
 FROM node:22-alpine AS base
+RUN apk add --no-cache openssl
 WORKDIR /app
 
 # ---- Dependencies ----
@@ -17,6 +18,7 @@ RUN npm run build
 
 # ---- Runner ----
 FROM node:22-alpine AS runner
+RUN apk add --no-cache openssl
 WORKDIR /app
 ENV NODE_ENV=production
 
