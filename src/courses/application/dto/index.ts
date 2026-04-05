@@ -1,0 +1,13 @@
+export { CreateCourseDto } from './create-course.dto';
+export { UpdateCourseDto } from './update-course.dto';
+export { CourseQueryDto } from './course-query.dto';
+export { CreateModuleDto } from './create-module.dto';
+export { UpdateModuleDto } from './update-module.dto';
+export { CreateLessonDto } from './create-lesson.dto';
+export { UpdateLessonDto } from './update-lesson.dto';
+export { CreateContentBlockDto } from './create-content-block.dto';
+export { UpdateContentBlockDto } from './update-content-block.dto';
+export { ReorderDto } from './reorder.dto';
+export { CreateCategoryDto } from './create-category.dto';
+export { UpdateCategoryDto } from './update-category.dto';
+export { UpdateCompletionCriteriaDto } from './update-completion-criteria.dto';
